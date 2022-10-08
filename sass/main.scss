@@ -1,0 +1,21 @@
+
+@import "./components/variables";
+@import "./components/common";
+@import "./components/mixins";
+@import "./components/templates";     //done in portfolio like an example 
+//header
+@import "./utils/header";
+// Index
+@import "./utils/main-button";
+@import "./utils/works";
+@import "./utils/adv";
+@import "./utils/hero";
+@import "./utils/partners";
+// Portfolio
+@import "./utils/main-buttons";
+@import "./utils/portfolio";
+// Footer
+@import "./utils/footer";
+// Modal
+@import "./utils/modal";
+  

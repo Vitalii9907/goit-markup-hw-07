@@ -1,0 +1,172 @@
+
+  .footer {
+    background-color: var(--background-color);
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+    &-adress{
+      margin-top: 20px;
+    }
+    &-logo{
+      color: var(--primary-color);
+      font-family: "Raleway",sans-serif;
+
+      @include font (26px, 700, 1.2, 0.03em);
+      
+      text-decoration: none;
+    }
+    
+    &-color {
+      color:var(--whole-white-color);
+    }
+    
+    &-list {
+      font-style: normal;
+      list-style: none;
+    }
+    &-item {
+      color: var(--fotter-color);
+      
+    }
+    
+    &-item a:hover {
+      color: var(--primary-color);
+    }
+    
+    &-item a:focus{
+      color: var(--primary-color);
+    }
+    
+    &-link {
+      text-decoration: none;
+      list-style-type: none;
+      color:var(--whole-white-color);
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &-mal{
+      text-decoration: none;
+      list-style: none;
+      color:var(--fotter-color);
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    }
+    &-tel {
+      text-decoration: none;
+      list-style: none;
+      color:var(--fotter-color);
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &-item.bot{
+      margin-bottom :9px;
+    }
+    
+    
+    &-box{
+     margin-right: 70px;
+    }
+   
+    
+   
+    &-svg{
+      fill: currentColor;
+         }
+    
+    &-form{
+          margin-left: auto;
+        }
+    &-form input{
+          background-color: var(--background-color);
+          color: var(--whole-white-color);
+          border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+
+        @include box(358px, 50px);
+       
+        margin-right: 12px;
+        padding-left: 16px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+        }
+    &-form::placeholder{
+          color: rgba(255, 255, 255, 0.6);
+        }
+        
+    &-propose{
+
+      @include font (14px, 700, 1.1, 0.03em);
+          
+          text-transform: uppercase;
+          color: var(--whole-white-color);
+          margin-bottom: 20px;
+        }
+        
+    &-but{
+          font-family: inherit;
+
+          @include font (16px, 700, 1.9, 0.06em);
+          
+          color: var(--whole-white-color);
+          background-color: var(--primary-color);
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 29px;
+          padding-right: 62px;
+          position: relative;
+          min-width: 200px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
+        }
+        
+    &-but:hover,
+    &-but:focus{
+          color:var(--whole-white-color);
+          background-color: var(--focus-color);  
+        }
+    &-form input:focus,
+    &-form input:hover{
+        border: 1px solid var(--whole-white-color);
+        outline: none;
+        cursor: var(--focus-color);
+        }
+        
+  }
+  
+
+  .join-page{
+
+    @include font (14px, 700, 1.8, 0.03em);
+ 
+  color: var(--whole-white-color);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  }
+  
+ 
+  .correct{
+  display: flex;
+  align-items: baseline;
+  }
+  
+  
+  .sub-svg {
+    position: absolute;
+    top: 50%;
+    margin-left: 10px;
+    transform: translateY(-50%);
+
+    @include box(24px, 24px);
+    
+    fill: var(--whole-white-color);
+   }
+
+
+
+   .footer__icon{
+    color: var(--whole-white-color);
+    background-color: rgba(255, 255, 255, 0.1);
+   }

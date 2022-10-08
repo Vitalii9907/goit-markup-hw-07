@@ -1,0 +1,54 @@
+.partners{
+    padding-bottom: 94px;
+    padding-top: 99px;
+
+    &-title{
+      color: var(--item-color);
+
+      @include font (36px, 700, 1.2, 0.03em);
+    
+      text-decoration: none;
+      text-align: center;
+      margin-bottom:50px;
+    }
+    
+    
+    &-list{
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      gap: 30px;
+      }
+    
+    
+    
+    
+    
+    &-link{
+
+      @include box(170px, 92px);
+    
+      border: 1px solid #AFB1B8;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--icon-color);
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &-link:hover,
+    &-link:focus{
+     border: 1px solid var(--primary-color);
+      color: var(--primary-color);
+    }
+    
+    &-svg{
+      fill:currentColor;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+  }
+
+  
+ 

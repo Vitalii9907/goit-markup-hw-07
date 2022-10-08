@@ -1,0 +1,43 @@
+
+  .adv{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    &-item {
+      color:var(--item-color);
+
+      @include font (14px, 700, 1.1, 00.03em);
+     
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    &-list {
+      text-decoration: none;
+      list-style: none;
+      margin: 0 auto;
+    }
+    &-dscrpt{
+      display: flex;
+    gap: 30px;
+    }
+    &-advantage{
+      text-align: center;
+      background-color: var(--hero-bck-cloror);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+
+      @include box(270, 120px);
+    
+      border-radius: 4px;
+    }
+
+  }
+  
+
+  
+  
+  
+ 
+
+  
